@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Étude lexicale du terme 鬼 (oni)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <style>
+    body {
+      background-color: #f5f7fa;
+    }
+    .hero {
+      background: linear-gradient(135deg, #2c3e50, #4b6584);
+      color: white;
+    }
+    .hero h1, .hero h2 {
+      color: white;
+    }
+    .content p {
+      line-height: 1.7;
+    }
+  </style>
+</head>
+
+<body>
+
+<section class="hero is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Étude lexicale et contextuelle du terme 鬼 (oni)
+      </h1>
+      <h2 class="subtitle">
+        Analyse automatique d’un corpus web japonais
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container content">
+
+    <h3 class="title is-4">Présentation du projet</h3>
+
+    <p>
+      Ce projet a pour objectif d’analyser les usages du terme japonais
+      <strong>鬼</strong> (<em>oni</em>), dans ses différentes formes
+      graphiques (kanji, hiragana et romaji), à partir d’un corpus de pages web
+      japonaises.
+    </p>
+
+    <p>
+      L’analyse repose sur une collecte automatique des pages, suivie de
+      plusieurs traitements linguistiques :
+    </p>
+
+    <ul>
+      <li>vérification du code HTTP et de l’encodage</li>
+      <li>extraction du HTML brut</li>
+      <li>dump textuel des pages</li>
+      <li>comptage des occurrences du mot cible</li>
+      <li>construction d’un concordancier contextuel</li>
+    </ul>
+
+    <h3 class="title is-4">Contenu du tableau d’analyse</h3>
+
+    <p>
+      Le tableau de résultats présente, pour chaque URL du corpus :
+    </p>
+
+    <ul>
+      <li>l’URL analysée</li>
+      <li>le code HTTP de la page</li>
+      <li>l’encodage détecté ou supposé</li>
+      <li>le nombre total d’occurrences du terme <em>oni</em></li>
+      <li>un accès au HTML brut</li>
+      <li>un dump textuel de la page</li>
+      <li>un concordancier mettant en évidence les contextes d’apparition</li>
+    </ul>
+
+    <div class="has-text-centered" style="margin-top: 2rem;">
+      <a href="resultats.html" class="button is-primary is-large">
+        Accéder au tableau d’analyse
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Projet réalisé dans le cadre d’un travail universitaire en analyse de corpus.
+    </p>
+  </div>
+</footer>

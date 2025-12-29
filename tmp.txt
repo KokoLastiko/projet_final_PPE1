@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	:root {
+		--lab23-body-background-color: ###f7f7f7;
+		--lab23-body-font: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+						--lab23-contents-width: 1000px;
+																		--lab23-main-color: #333;
+		--lab23-text-color-on-main-color: #fff;
+		--lab23-light-color: #f7f7f7;
+		--lab23-header-bg-color: #fff;
+		--lab23-header-color: #333;
+		--lab23-hamburger-bg-color: #fff;
+		--lab23-hamburger-color: #333;
+		--lab23-submenu-bg-color: #eee;
+		--lab23-submenu-text-color: #333;
+		--lab23-submenu-border-color: #ccc;
+		--lab23-text-color: #333;
+		--lab23-border-color: #eee;
+		--lab23-link-color: #1e73be;
+		--lab23-category-color: #eee;
+		--lab23-category-text-color: #333;
+		--lab23-tag-color: #eee;
+		--lab23-tag-text-color: #333;
+		--lab23-content-width: 1000px;
+		--lab23-comment-btn-color: #d31111;
+		--lab23-page-top-btn-color: #111;
+		--lab23-footer-widget-bg-color: #eee;
+		--lab23-footer-widget-text-color: #333;
+		--lab23-footer-nav-bg-color: #f5f5f5;
+		--lab23-footer-nav-text-color: #111;
+		--lab23-copyright-bg-color: #111;
+		--lab23-copyright-text-color: #fff;
+		--lab23-archive-title-font-size: 20px;
+		--lab23-archive-title-font-size-sp: 18px;
+		--lab23-post-title-font-size: 26px;
+		--lab23-post-title-font-size-sp: 24px;
+		--lab23-post-h2-font-size: 22px;
+		--lab23-post-h2-font-size-sp: 22px;
+		--lab23-post-h3-font-size: 20px;
+		--lab23-post-h3-font-size-sp: 20px;
+		--lab23-post-h4-font-size: 18px;
+		--lab23-post-h4-font-size-sp: 18px;
+		--lab23-post-h5-font-size: 16px;
+		--lab23-post-h5-font-size-sp: 16px;
+		--lab23-post-h6-font-size: 15px;
+		--lab23-post-h6-font-size-sp: 15px;
+		--lab23-post-content-font-size: 16px;
+		--lab23-post-content-font-size-sp: 16px;
+		--lab23-header-padding: 16px;
+		--lab23-header-padding-sp: 14px;
+		--lab23-site-logo-height: 36px;
+		--lab23-contents-max-width-2column: 1180px;
+		--lab23-contents-max-width-1column: 900px;
+								
+	}
+</style>	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v24.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>鬼（おに） - 日本の妖怪百科事典</title>
+	<meta name="description" content="巨大で屈強な体を持ち、その肌の色は赤や青、黒、緑など多様に変化する。額には鋭い角が生えており、その数は一本または二本のことが多い。" />
+	<link rel="canonical" href="http://youkai.every-topic.com/youkai/oni/" />
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="鬼（おに） - 日本の妖怪百科事典" />
+	<meta property="og:description" content="巨大で屈強な体を持ち、その肌の色は赤や青、黒、緑など多様に変化する。額には鋭い角が生えており、その数は一本または二本のことが多い。" />
+	<meta property="og:url" content="http://youkai.every-topic.com/youkai/oni/" />
+	<meta property="og:site_name" content="日本の妖怪百科事典" />
+	<meta property="article:modified_time" content="2025-03-07T10:29:05+00:00" />
+	<meta property="og:image" content="http://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp" />
+	<meta property="og:image:width" content="1792" />
+	<meta property="og:image:height" content="1024" />
+	<meta property="og:image:type" content="image/webp" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="推定読み取り時間" />
+	<meta name="twitter:data1" content="1分" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"http://youkai.every-topic.com/youkai/oni/","url":"http://youkai.every-topic.com/youkai/oni/","name":"鬼（おに） - 日本の妖怪百科事典","isPartOf":{"@id":"https://youkai.every-topic.com/#website"},"primaryImageOfPage":{"@id":"http://youkai.every-topic.com/youkai/oni/#primaryimage"},"image":{"@id":"http://youkai.every-topic.com/youkai/oni/#primaryimage"},"thumbnailUrl":"https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp","datePublished":"2025-03-06T09:35:53+00:00","dateModified":"2025-03-07T10:29:05+00:00","description":"巨大で屈強な体を持ち、その肌の色は赤や青、黒、緑など多様に変化する。額には鋭い角が生えており、その数は一本または二本のことが多い。","breadcrumb":{"@id":"http://youkai.every-topic.com/youkai/oni/#breadcrumb"},"inLanguage":"ja","potentialAction":[{"@type":"ReadAction","target":["http://youkai.every-topic.com/youkai/oni/"]}]},{"@type":"ImageObject","inLanguage":"ja","@id":"http://youkai.every-topic.com/youkai/oni/#primaryimage","url":"https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp","contentUrl":"https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp","width":1792,"height":1024},{"@type":"BreadcrumbList","@id":"http://youkai.every-topic.com/youkai/oni/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://youkai.every-topic.com/"},{"@type":"ListItem","position":2,"name":"妖怪","item":"https://youkai.every-topic.com/youkai/"},{"@type":"ListItem","position":3,"name":"鬼（おに）"}]},{"@type":"WebSite","@id":"https://youkai.every-topic.com/#website","url":"https://youkai.every-topic.com/","name":"日本の妖怪百科事典","description":"日本全国に伝わる妖怪の伝承や歴史を詳しく解説する妖怪百科事典。擬人化されたかっこいい＆美しい妖怪イラストと共に、妖怪の世界を体験しよう。","publisher":{"@id":"https://youkai.every-topic.com/#/schema/person/a83cd3cacf8aab44e53e323011903b39"},"alternateName":"怪百科事典","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://youkai.every-topic.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"ja"},{"@type":["Person","Organization"],"@id":"https://youkai.every-topic.com/#/schema/person/a83cd3cacf8aab44e53e323011903b39","name":"admin","image":{"@type":"ImageObject","inLanguage":"ja","@id":"https://youkai.every-topic.com/#/schema/person/image/","url":"https://youkai.every-topic.com/wp-content/uploads/2025/03/yokai_mascot_character.jpg","contentUrl":"https://youkai.every-topic.com/wp-content/uploads/2025/03/yokai_mascot_character.jpg","width":1024,"height":1024,"caption":"admin"},"logo":{"@id":"https://youkai.every-topic.com/#/schema/person/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel='dns-prefetch' href='//fundingchoicesmessages.google.com' />
+<link rel="alternate" type="application/rss+xml" title="日本の妖怪百科事典 &raquo; フィード" href="https://youkai.every-topic.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="日本の妖怪百科事典 &raquo; コメントフィード" href="https://youkai.every-topic.com/comments/feed/" />
+<script id="wpp-js" src="https://youkai.every-topic.com/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.js?ver=7.2.0" data-sampling="0" data-sampling-rate="100" data-api-url="https://youkai.every-topic.com/wp-json/wordpress-popular-posts" data-post-id="94" data-token="cb08cd726a" data-lang="0" data-debug="1"></script>
+<link rel="alternate" type="application/rss+xml" title="日本の妖怪百科事典 &raquo; 鬼（おに） のコメントのフィード" href="https://youkai.every-topic.com/youkai/oni/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://youkai.every-topic.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyoukai.every-topic.com%2Fyoukai%2Foni%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://youkai.every-topic.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fyoukai.every-topic.com%2Fyoukai%2Foni%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style><style id='wp-block-heading-inline-css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://youkai.every-topic.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-search-inline-css'>
+.wp-block-search__button{margin-left:10px;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{height:1.25em;min-height:24px;min-width:24px;width:1.25em;fill:currentColor;vertical-align:text-bottom}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__button{box-sizing:border-box;display:flex;flex-shrink:0;justify-content:center;margin-left:0;max-width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100%;transition-duration:.3s}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper{overflow:hidden}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__input{border-left-width:0!important;border-right-width:0!important;flex-basis:0;flex-grow:0;margin:0;min-width:0!important;padding-left:0!important;padding-right:0!important;width:0!important}:where(.wp-block-search__input){appearance:none;border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin-left:0;margin-right:0;min-width:3rem;padding:8px;text-decoration:unset!important;text-transform:inherit}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){background-color:#fff;border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}.wp-block[data-align=right] .wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{float:right}
+/*# sourceURL=https://youkai.every-topic.com/wp-includes/blocks/search/style.min.css */
+</style>
+<style id='wp-block-search-theme-inline-css'>
+.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}
+/*# sourceURL=https://youkai.every-topic.com/wp-includes/blocks/search/theme.min.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--l-23-b-black: #111;--wp--preset--color--l-23-b-white: #fff;--wp--preset--color--l-23-b-dark-gray: #6b6b6b;--wp--preset--color--l-23-b-green: #2aa85e;--wp--preset--color--l-23-b-turquoise: #36b8bc;--wp--preset--color--l-23-b-blue: #1f62c1;--wp--preset--color--l-23-b-purple: #b438c1;--wp--preset--color--l-23-b-red: #b71414;--wp--preset--color--l-23-b-pink: #d15353;--wp--preset--color--l-23-b-orange: #e87e0d;--wp--preset--color--l-23-b-yellow: #f0f00e;--wp--preset--color--l-23-b-light-gray: #999999;--wp--preset--color--l-23-b-light-green: #86e5ad;--wp--preset--color--l-23-b-light-turquoise: #82d4d7;--wp--preset--color--l-23-b-light-blue: #90c4ed;--wp--preset--color--l-23-b-light-purple: #e188eb;--wp--preset--color--l-23-b-light-pink: #e79090;--wp--preset--color--l-23-b-light-orange: #eeaf6c;--wp--preset--color--l-23-b-light-yellow: #f2f274;--wp--preset--color--l-23-b-pale-gray: #f5f5f5;--wp--preset--color--l-23-b-pale-turquoise: #cbeff0;--wp--preset--color--l-23-b-pale-blue: #d4e9f9;--wp--preset--color--l-23-b-pale-purple: #f1d6f4;--wp--preset--color--l-23-b-pale-pink: #fcd4d4;--wp--preset--color--l-23-b-pale-orange: #f9ebd9;--wp--preset--color--l-23-b-pale-yellow: #fafad5;--wp--preset--color--l-23-b-custom-1: #eee;--wp--preset--color--l-23-b-custom-2: #ddd;--wp--preset--color--l-23-b-custom-3: #ccc;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://youkai.every-topic.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.4' media='all' />
+<link rel='stylesheet' id='searchandfilter-css' href='http://youkai.every-topic.com/wp-content/plugins/search-filter/style.css?ver=1' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css-css' href='https://youkai.every-topic.com/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=7.2.0' media='all' />
+<link rel='stylesheet' id='lab23-font-style-css' href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP%3Awght%40400%3B500%3B700&#038;display=swap&#038;ver=6.9' media='all' />
+<link rel='stylesheet' id='lab23-theme-style-css' href='https://youkai.every-topic.com/wp-content/themes/lab23/assets/css/theme.css?ver=1.1.4' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://youkai.every-topic.com/wp-content/themes/lab23-child/style.css?ver=6.9' media='all' />
+
+<!-- Site Kit によって追加された Google タグ（gtag.js）スニペット -->
+<!-- Google アナリティクス スニペット (Site Kit が追加) -->
+<script src="https://www.googletagmanager.com/gtag/js?id=GT-NNXB879G" id="google_gtagjs-js" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["youkai.every-topic.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NNXB879G", {"googlesitekit_post_type":"youkai"});
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://youkai.every-topic.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://youkai.every-topic.com/wp-json/wp/v2/youkai/94" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://youkai.every-topic.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://youkai.every-topic.com/?p=94' />
+<meta name="generator" content="Site Kit by Google 1.168.0" />            <style id="wpp-loading-animation-styles">@-webkit-keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}@keyframes bgslide{from{background-position-x:0}to{background-position-x:-200%}}.wpp-widget-block-placeholder,.wpp-shortcode-placeholder{margin:0 auto;width:60px;height:3px;background:#dd3737;background:linear-gradient(90deg,#dd3737 0%,#571313 10%,#dd3737 100%);background-size:200% auto;border-radius:3px;-webkit-animation:bgslide 1s infinite linear;animation:bgslide 1s infinite linear}</style>
+            <meta name="description" content="日本全国に伝わる妖怪の伝承や歴史を詳しく解説する妖怪百科事典。擬人化されたかっこいい＆美しい妖怪イラストと共に、妖怪の世界を体験しよう。">
+<meta property="og:title" content="鬼（おに）">
+<meta property="og:description" content="日本全国に伝わる妖怪の伝承や歴史を詳しく解説する妖怪百科事典。擬人化されたかっこいい＆美しい妖怪イラストと共に、妖怪の世界を体験しよう。">
+<meta property="og:url" content="httpsyoukai.every-topic.com/youkai/oni/">
+<meta property="og:image" content="https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp">
+<meta property="og:site_name" content="日本の妖怪百科事典">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="日本全国に伝わる妖怪の伝承や歴史を詳しく解説する妖怪百科事典。擬人化されたかっこいい＆美しい妖怪イラストと共に、妖怪の世界を体験しよう。">
+<meta name="twitter:title" content="鬼（おに）">
+<meta name="twitter:url" content="httpsyoukai.every-topic.com/youkai/oni/">
+<meta name="twitter:image" content="https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp">
+
+<!-- Site Kit が追加した Google AdSense メタタグ -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- Site Kit が追加した End Google AdSense メタタグ -->
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><style id="custom-background-css">
+body.custom-background { background-image: url("https://youkai.every-topic.com/wp-content/uploads/2025/03/Japanese_Pattern_33_D.jpg"); background-position: left top; background-size: contain; background-repeat: repeat; background-attachment: scroll; }
+</style>
+	
+<!-- Google AdSense スニペット (Site Kit が追加) -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3710617058892264&amp;host=ca-host-pub-2644536267352236" crossorigin="anonymous"></script>
+
+<!-- (ここまで) Google AdSense スニペット (Site Kit が追加) -->
+
+<!-- Site Kit によって追加された「Google AdSense 広告ブロックによる損失収益の回復」スニペット -->
+<script async src="https://fundingchoicesmessages.google.com/i/pub-3710617058892264?ers=1"></script><script>(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<!-- Site Kit によって追加された「Google AdSense 広告ブロックによる損失収益の回復」スニペットを終了 -->
+
+<!-- Site Kit によって追加された「Google AdSense 広告ブロックによる損失収益の回復エラー保護」スニペット -->
+<script>(function(){'use strict';function aa(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}var ba=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};
+function ca(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error("Cannot find global object");}var da=ca(this);function l(a,b){if(b)a:{var c=da;a=a.split(".");for(var d=0;d<a.length-1;d++){var e=a[d];if(!(e in c))break a;c=c[e]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&b!=null&&ba(c,a,{configurable:!0,writable:!0,value:b})}}
+function ea(a){return a.raw=a}function n(a){var b=typeof Symbol!="undefined"&&Symbol.iterator&&a[Symbol.iterator];if(b)return b.call(a);if(typeof a.length=="number")return{next:aa(a)};throw Error(String(a)+" is not an iterable or ArrayLike");}function fa(a){for(var b,c=[];!(b=a.next()).done;)c.push(b.value);return c}var ha=typeof Object.create=="function"?Object.create:function(a){function b(){}b.prototype=a;return new b},p;
+if(typeof Object.setPrototypeOf=="function")p=Object.setPrototypeOf;else{var q;a:{var ja={a:!0},ka={};try{ka.__proto__=ja;q=ka.a;break a}catch(a){}q=!1}p=q?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}var la=p;
+function t(a,b){a.prototype=ha(b.prototype);a.prototype.constructor=a;if(la)la(a,b);else for(var c in b)if(c!="prototype")if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.A=b.prototype}function ma(){for(var a=Number(this),b=[],c=a;c<arguments.length;c++)b[c-a]=arguments[c];return b}l("Object.is",function(a){return a?a:function(b,c){return b===c?b!==0||1/b===1/c:b!==b&&c!==c}});
+l("Array.prototype.includes",function(a){return a?a:function(b,c){var d=this;d instanceof String&&(d=String(d));var e=d.length;c=c||0;for(c<0&&(c=Math.max(c+e,0));c<e;c++){var f=d[c];if(f===b||Object.is(f,b))return!0}return!1}});
+l("String.prototype.includes",function(a){return a?a:function(b,c){if(this==null)throw new TypeError("The 'this' value for String.prototype.includes must not be null or undefined");if(b instanceof RegExp)throw new TypeError("First argument to String.prototype.includes must not be a regular expression");return this.indexOf(b,c||0)!==-1}});l("Number.MAX_SAFE_INTEGER",function(){return 9007199254740991});
+l("Number.isFinite",function(a){return a?a:function(b){return typeof b!=="number"?!1:!isNaN(b)&&b!==Infinity&&b!==-Infinity}});l("Number.isInteger",function(a){return a?a:function(b){return Number.isFinite(b)?b===Math.floor(b):!1}});l("Number.isSafeInteger",function(a){return a?a:function(b){return Number.isInteger(b)&&Math.abs(b)<=Number.MAX_SAFE_INTEGER}});
+l("Math.trunc",function(a){return a?a:function(b){b=Number(b);if(isNaN(b)||b===Infinity||b===-Infinity||b===0)return b;var c=Math.floor(Math.abs(b));return b<0?-c:c}});/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+var u=this||self;function v(a,b){a:{var c=["CLOSURE_FLAGS"];for(var d=u,e=0;e<c.length;e++)if(d=d[c[e]],d==null){c=null;break a}c=d}a=c&&c[a];return a!=null?a:b}function w(a){return a};function na(a){u.setTimeout(function(){throw a;},0)};var oa=v(610401301,!1),pa=v(188588736,!0),qa=v(645172343,v(1,!0));var x,ra=u.navigator;x=ra?ra.userAgentData||null:null;function z(a){return oa?x?x.brands.some(function(b){return(b=b.brand)&&b.indexOf(a)!=-1}):!1:!1}function A(a){var b;a:{if(b=u.navigator)if(b=b.userAgent)break a;b=""}return b.indexOf(a)!=-1};function B(){return oa?!!x&&x.brands.length>0:!1}function C(){return B()?z("Chromium"):(A("Chrome")||A("CriOS"))&&!(B()?0:A("Edge"))||A("Silk")};var sa=B()?!1:A("Trident")||A("MSIE");!A("Android")||C();C();A("Safari")&&(C()||(B()?0:A("Coast"))||(B()?0:A("Opera"))||(B()?0:A("Edge"))||(B()?z("Microsoft Edge"):A("Edg/"))||B()&&z("Opera"));var ta={},D=null;var ua=typeof Uint8Array!=="undefined",va=!sa&&typeof btoa==="function";var wa;function E(){return typeof BigInt==="function"};var F=typeof Symbol==="function"&&typeof Symbol()==="symbol";function xa(a){return typeof Symbol==="function"&&typeof Symbol()==="symbol"?Symbol():a}var G=xa(),ya=xa("2ex");var za=F?function(a,b){a[G]|=b}:function(a,b){a.g!==void 0?a.g|=b:Object.defineProperties(a,{g:{value:b,configurable:!0,writable:!0,enumerable:!1}})},H=F?function(a){return a[G]|0}:function(a){return a.g|0},I=F?function(a){return a[G]}:function(a){return a.g},J=F?function(a,b){a[G]=b}:function(a,b){a.g!==void 0?a.g=b:Object.defineProperties(a,{g:{value:b,configurable:!0,writable:!0,enumerable:!1}})};function Aa(a,b){J(b,(a|0)&-14591)}function Ba(a,b){J(b,(a|34)&-14557)};var K={},Ca={};function Da(a){return!(!a||typeof a!=="object"||a.g!==Ca)}function Ea(a){return a!==null&&typeof a==="object"&&!Array.isArray(a)&&a.constructor===Object}function L(a,b,c){if(!Array.isArray(a)||a.length)return!1;var d=H(a);if(d&1)return!0;if(!(b&&(Array.isArray(b)?b.includes(c):b.has(c))))return!1;J(a,d|1);return!0};var M=0,N=0;function Fa(a){var b=a>>>0;M=b;N=(a-b)/4294967296>>>0}function Ga(a){if(a<0){Fa(-a);var b=n(Ha(M,N));a=b.next().value;b=b.next().value;M=a>>>0;N=b>>>0}else Fa(a)}function Ia(a,b){b>>>=0;a>>>=0;if(b<=2097151)var c=""+(4294967296*b+a);else E()?c=""+(BigInt(b)<<BigInt(32)|BigInt(a)):(c=(a>>>24|b<<8)&16777215,b=b>>16&65535,a=(a&16777215)+c*6777216+b*6710656,c+=b*8147497,b*=2,a>=1E7&&(c+=a/1E7>>>0,a%=1E7),c>=1E7&&(b+=c/1E7>>>0,c%=1E7),c=b+Ja(c)+Ja(a));return c}
+function Ja(a){a=String(a);return"0000000".slice(a.length)+a}function Ha(a,b){b=~b;a?a=~a+1:b+=1;return[a,b]};var Ka=/^-?([1-9][0-9]*|0)(\.[0-9]+)?$/;var O;function La(a,b){O=b;a=new a(b);O=void 0;return a}
+function P(a,b,c){a==null&&(a=O);O=void 0;if(a==null){var d=96;c?(a=[c],d|=512):a=[];b&&(d=d&-16760833|(b&1023)<<14)}else{if(!Array.isArray(a))throw Error("narr");d=H(a);if(d&2048)throw Error("farr");if(d&64)return a;d|=64;if(c&&(d|=512,c!==a[0]))throw Error("mid");a:{c=a;var e=c.length;if(e){var f=e-1;if(Ea(c[f])){d|=256;b=f-(+!!(d&512)-1);if(b>=1024)throw Error("pvtlmt");d=d&-16760833|(b&1023)<<14;break a}}if(b){b=Math.max(b,e-(+!!(d&512)-1));if(b>1024)throw Error("spvt");d=d&-16760833|(b&1023)<<
+14}}}J(a,d);return a};function Ma(a){switch(typeof a){case "number":return isFinite(a)?a:String(a);case "boolean":return a?1:0;case "object":if(a)if(Array.isArray(a)){if(L(a,void 0,0))return}else if(ua&&a!=null&&a instanceof Uint8Array){if(va){for(var b="",c=0,d=a.length-10240;c<d;)b+=String.fromCharCode.apply(null,a.subarray(c,c+=10240));b+=String.fromCharCode.apply(null,c?a.subarray(c):a);a=btoa(b)}else{b===void 0&&(b=0);if(!D){D={};c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split("");d=["+/=",
+"+/","-_=","-_.","-_"];for(var e=0;e<5;e++){var f=c.concat(d[e].split(""));ta[e]=f;for(var g=0;g<f.length;g++){var h=f[g];D[h]===void 0&&(D[h]=g)}}}b=ta[b];c=Array(Math.floor(a.length/3));d=b[64]||"";for(e=f=0;f<a.length-2;f+=3){var k=a[f],m=a[f+1];h=a[f+2];g=b[k>>2];k=b[(k&3)<<4|m>>4];m=b[(m&15)<<2|h>>6];h=b[h&63];c[e++]=g+k+m+h}g=0;h=d;switch(a.length-f){case 2:g=a[f+1],h=b[(g&15)<<2]||d;case 1:a=a[f],c[e]=b[a>>2]+b[(a&3)<<4|g>>4]+h+d}a=c.join("")}return a}}return a};function Na(a,b,c){a=Array.prototype.slice.call(a);var d=a.length,e=b&256?a[d-1]:void 0;d+=e?-1:0;for(b=b&512?1:0;b<d;b++)a[b]=c(a[b]);if(e){b=a[b]={};for(var f in e)Object.prototype.hasOwnProperty.call(e,f)&&(b[f]=c(e[f]))}return a}function Oa(a,b,c,d,e){if(a!=null){if(Array.isArray(a))a=L(a,void 0,0)?void 0:e&&H(a)&2?a:Pa(a,b,c,d!==void 0,e);else if(Ea(a)){var f={},g;for(g in a)Object.prototype.hasOwnProperty.call(a,g)&&(f[g]=Oa(a[g],b,c,d,e));a=f}else a=b(a,d);return a}}
+function Pa(a,b,c,d,e){var f=d||c?H(a):0;d=d?!!(f&32):void 0;a=Array.prototype.slice.call(a);for(var g=0;g<a.length;g++)a[g]=Oa(a[g],b,c,d,e);c&&c(f,a);return a}function Qa(a){return a.s===K?a.toJSON():Ma(a)};function Ra(a,b,c){c=c===void 0?Ba:c;if(a!=null){if(ua&&a instanceof Uint8Array)return b?a:new Uint8Array(a);if(Array.isArray(a)){var d=H(a);if(d&2)return a;b&&(b=d===0||!!(d&32)&&!(d&64||!(d&16)));return b?(J(a,(d|34)&-12293),a):Pa(a,Ra,d&4?Ba:c,!0,!0)}a.s===K&&(c=a.h,d=I(c),a=d&2?a:La(a.constructor,Sa(c,d,!0)));return a}}function Sa(a,b,c){var d=c||b&2?Ba:Aa,e=!!(b&32);a=Na(a,b,function(f){return Ra(f,e,d)});za(a,32|(c?2:0));return a};function Ta(a,b){a=a.h;return Ua(a,I(a),b)}function Va(a,b,c,d){b=d+(+!!(b&512)-1);if(!(b<0||b>=a.length||b>=c))return a[b]}
+function Ua(a,b,c,d){if(c===-1)return null;var e=b>>14&1023||536870912;if(c>=e){if(b&256)return a[a.length-1][c]}else{var f=a.length;if(d&&b&256&&(d=a[f-1][c],d!=null)){if(Va(a,b,e,c)&&ya!=null){var g;a=(g=wa)!=null?g:wa={};g=a[ya]||0;g>=4||(a[ya]=g+1,g=Error(),g.__closure__error__context__984382||(g.__closure__error__context__984382={}),g.__closure__error__context__984382.severity="incident",na(g))}return d}return Va(a,b,e,c)}}
+function Wa(a,b,c,d,e){var f=b>>14&1023||536870912;if(c>=f||e&&!qa){var g=b;if(b&256)e=a[a.length-1];else{if(d==null)return;e=a[f+(+!!(b&512)-1)]={};g|=256}e[c]=d;c<f&&(a[c+(+!!(b&512)-1)]=void 0);g!==b&&J(a,g)}else a[c+(+!!(b&512)-1)]=d,b&256&&(a=a[a.length-1],c in a&&delete a[c])}
+function Xa(a,b){var c=Ya;var d=d===void 0?!1:d;var e=a.h;var f=I(e),g=Ua(e,f,b,d);if(g!=null&&typeof g==="object"&&g.s===K)c=g;else if(Array.isArray(g)){var h=H(g),k=h;k===0&&(k|=f&32);k|=f&2;k!==h&&J(g,k);c=new c(g)}else c=void 0;c!==g&&c!=null&&Wa(e,f,b,c,d);e=c;if(e==null)return e;a=a.h;f=I(a);f&2||(g=e,c=g.h,h=I(c),g=h&2?La(g.constructor,Sa(c,h,!1)):g,g!==e&&(e=g,Wa(a,f,b,e,d)));return e}function Za(a,b){a=Ta(a,b);return a==null||typeof a==="string"?a:void 0}
+function $a(a,b){var c=c===void 0?0:c;a=Ta(a,b);if(a!=null)if(b=typeof a,b==="number"?Number.isFinite(a):b!=="string"?0:Ka.test(a))if(typeof a==="number"){if(a=Math.trunc(a),!Number.isSafeInteger(a)){Ga(a);b=M;var d=N;if(a=d&2147483648)b=~b+1>>>0,d=~d>>>0,b==0&&(d=d+1>>>0);b=d*4294967296+(b>>>0);a=a?-b:b}}else if(b=Math.trunc(Number(a)),Number.isSafeInteger(b))a=String(b);else{if(b=a.indexOf("."),b!==-1&&(a=a.substring(0,b)),!(a[0]==="-"?a.length<20||a.length===20&&Number(a.substring(0,7))>-922337:
+a.length<19||a.length===19&&Number(a.substring(0,6))<922337)){if(a.length<16)Ga(Number(a));else if(E())a=BigInt(a),M=Number(a&BigInt(4294967295))>>>0,N=Number(a>>BigInt(32)&BigInt(4294967295));else{b=+(a[0]==="-");N=M=0;d=a.length;for(var e=b,f=(d-b)%6+b;f<=d;e=f,f+=6)e=Number(a.slice(e,f)),N*=1E6,M=M*1E6+e,M>=4294967296&&(N+=Math.trunc(M/4294967296),N>>>=0,M>>>=0);b&&(b=n(Ha(M,N)),a=b.next().value,b=b.next().value,M=a,N=b)}a=M;b=N;b&2147483648?E()?a=""+(BigInt(b|0)<<BigInt(32)|BigInt(a>>>0)):(b=
+n(Ha(a,b)),a=b.next().value,b=b.next().value,a="-"+Ia(a,b)):a=Ia(a,b)}}else a=void 0;return a!=null?a:c}function R(a,b){var c=c===void 0?"":c;a=Za(a,b);return a!=null?a:c};var S;function T(a,b,c){this.h=P(a,b,c)}T.prototype.toJSON=function(){return ab(this)};T.prototype.s=K;T.prototype.toString=function(){try{return S=!0,ab(this).toString()}finally{S=!1}};
+function ab(a){var b=S?a.h:Pa(a.h,Qa,void 0,void 0,!1);var c=!S;var d=pa?void 0:a.constructor.v;var e=I(c?a.h:b);if(a=b.length){var f=b[a-1],g=Ea(f);g?a--:f=void 0;e=+!!(e&512)-1;var h=b;if(g){b:{var k=f;var m={};g=!1;if(k)for(var r in k)if(Object.prototype.hasOwnProperty.call(k,r))if(isNaN(+r))m[r]=k[r];else{var y=k[r];Array.isArray(y)&&(L(y,d,+r)||Da(y)&&y.size===0)&&(y=null);y==null&&(g=!0);y!=null&&(m[r]=y)}if(g){for(var Q in m)break b;m=null}else m=k}k=m==null?f!=null:m!==f}for(var ia;a>0;a--){Q=
+a-1;r=h[Q];Q-=e;if(!(r==null||L(r,d,Q)||Da(r)&&r.size===0))break;ia=!0}if(h!==b||k||ia){if(!c)h=Array.prototype.slice.call(h,0,a);else if(ia||k||m)h.length=a;m&&h.push(m)}b=h}return b};function bb(a){return function(b){if(b==null||b=="")b=new a;else{b=JSON.parse(b);if(!Array.isArray(b))throw Error("dnarr");za(b,32);b=La(a,b)}return b}};function cb(a){this.h=P(a)}t(cb,T);var db=bb(cb);var U;function V(a){this.g=a}V.prototype.toString=function(){return this.g+""};var eb={};function fb(a){if(U===void 0){var b=null;var c=u.trustedTypes;if(c&&c.createPolicy){try{b=c.createPolicy("goog#html",{createHTML:w,createScript:w,createScriptURL:w})}catch(d){u.console&&u.console.error(d.message)}U=b}else U=b}a=(b=U)?b.createScriptURL(a):a;return new V(a,eb)};/*
+
+ SPDX-License-Identifier: Apache-2.0
+*/
+function gb(a){var b=ma.apply(1,arguments);if(b.length===0)return fb(a[0]);for(var c=a[0],d=0;d<b.length;d++)c+=encodeURIComponent(b[d])+a[d+1];return fb(c)};function hb(a,b){a.src=b instanceof V&&b.constructor===V?b.g:"type_error:TrustedResourceUrl";var c,d;(c=(b=(d=(c=(a.ownerDocument&&a.ownerDocument.defaultView||window).document).querySelector)==null?void 0:d.call(c,"script[nonce]"))?b.nonce||b.getAttribute("nonce")||"":"")&&a.setAttribute("nonce",c)};function ib(){return Math.floor(Math.random()*2147483648).toString(36)+Math.abs(Math.floor(Math.random()*2147483648)^Date.now()).toString(36)};function jb(a,b){b=String(b);a.contentType==="application/xhtml+xml"&&(b=b.toLowerCase());return a.createElement(b)}function kb(a){this.g=a||u.document||document};function lb(a){a=a===void 0?document:a;return a.createElement("script")};function mb(a,b,c,d,e,f){try{var g=a.g,h=lb(g);h.async=!0;hb(h,b);g.head.appendChild(h);h.addEventListener("load",function(){e();d&&g.head.removeChild(h)});h.addEventListener("error",function(){c>0?mb(a,b,c-1,d,e,f):(d&&g.head.removeChild(h),f())})}catch(k){f()}};var nb=u.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ob=u.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),pb=u.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu");function qb(a,b,c){this.i=a;this.u=b;this.o=c;this.g=null;this.j=[];this.m=!1;this.l=new kb(this.i)}
+function rb(a){if(a.i.body&&!a.m){var b=function(){sb(a);u.setTimeout(function(){tb(a,3)},50)};mb(a.l,a.u,2,!0,function(){u[a.o]||b()},b);a.m=!0}}
+function sb(a){for(var b=W(1,5),c=0;c<b;c++){var d=X(a);a.i.body.appendChild(d);a.j.push(d)}b=X(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=W(100,110).toString()+"%";b.style.zIndex=W(2147483544,2147483644).toString();b.style.backgroundColor=ub(249,259,242,252,219,229);b.style.boxShadow="0 0 12px #888";b.style.color=ub(0,10,0,10,0,10);b.style.display="flex";b.style.justifyContent="center";b.style.fontFamily="Roboto, Arial";c=X(a);c.style.width=W(80,85).toString()+
+"%";c.style.maxWidth=W(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style.alignItems="flex-start";c.style.justifyContent="center";d=jb(a.l.g,"IMG");d.className=ib();d.src=nb;d.alt="Warning icon";d.style.height="24px";d.style.width="24px";d.style.paddingRight="16px";var e=X(a),f=X(a);f.style.fontWeight="bold";f.textContent=ob;var g=X(a);g.textContent=pb;Y(a,e,f);Y(a,e,g);Y(a,c,d);Y(a,c,e);Y(a,b,c);a.g=b;a.i.body.appendChild(a.g);b=W(1,5);for(c=0;c<b;c++)d=X(a),a.i.body.appendChild(d),
+a.j.push(d)}function Y(a,b,c){for(var d=W(1,5),e=0;e<d;e++){var f=X(a);b.appendChild(f)}b.appendChild(c);c=W(1,5);for(d=0;d<c;d++)e=X(a),b.appendChild(e)}function W(a,b){return Math.floor(a+Math.random()*(b-a))}function ub(a,b,c,d,e,f){return"rgb("+W(Math.max(a,0),Math.min(b,255)).toString()+","+W(Math.max(c,0),Math.min(d,255)).toString()+","+W(Math.max(e,0),Math.min(f,255)).toString()+")"}function X(a){a=jb(a.l.g,"DIV");a.className=ib();return a}
+function tb(a,b){b<=0||a.g!=null&&a.g.offsetHeight!==0&&a.g.offsetWidth!==0||(vb(a),sb(a),u.setTimeout(function(){tb(a,b-1)},50))}function vb(a){for(var b=n(a.j),c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.j=[];(b=a.g)&&b.parentNode&&b.parentNode.removeChild(b);a.g=null};function wb(a,b,c,d,e){function f(k){document.body?g(document.body):k>0?u.setTimeout(function(){f(k-1)},e):b()}function g(k){k.appendChild(h);u.setTimeout(function(){h?(h.offsetHeight!==0&&h.offsetWidth!==0?b():a(),h.parentNode&&h.parentNode.removeChild(h)):a()},d)}var h=xb(c);f(3)}function xb(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};function Ya(a){this.h=P(a)}t(Ya,T);function yb(a){this.h=P(a)}t(yb,T);var zb=bb(yb);function Ab(a){if(!a)return null;a=Za(a,4);var b;a===null||a===void 0?b=null:b=fb(a);return b};var Bb=ea([""]),Cb=ea([""]);function Db(a,b){this.m=a;this.o=new kb(a.document);this.g=b;this.j=R(this.g,1);this.u=Ab(Xa(this.g,2))||gb(Bb);this.i=!1;b=Ab(Xa(this.g,13))||gb(Cb);this.l=new qb(a.document,b,R(this.g,12))}Db.prototype.start=function(){Eb(this)};
+function Eb(a){Fb(a);mb(a.o,a.u,3,!1,function(){a:{var b=a.j;var c=u.btoa(b);if(c=u[c]){try{var d=db(u.atob(c))}catch(e){b=!1;break a}b=b===Za(d,1)}else b=!1}b?Z(a,R(a.g,14)):(Z(a,R(a.g,8)),rb(a.l))},function(){wb(function(){Z(a,R(a.g,7));rb(a.l)},function(){return Z(a,R(a.g,6))},R(a.g,9),$a(a.g,10),$a(a.g,11))})}function Z(a,b){a.i||(a.i=!0,a=new a.m.XMLHttpRequest,a.open("GET",b,!0),a.send())}function Fb(a){var b=u.btoa(a.j);a.m[b]&&Z(a,R(a.g,5))};(function(a,b){u[a]=function(){var c=ma.apply(0,arguments);u[a]=function(){};b.call.apply(b,[null].concat(c instanceof Array?c:fa(n(c))))}})("__h82AlnkH6D91__",function(a){typeof window.atob==="function"&&(new Db(window,zb(window.atob(a)))).start()});}).call(this);
+
+window.__h82AlnkH6D91__("WyJwdWItMzcxMDYxNzA1ODg5MjI2NCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9iL3B1Yi0zNzEwNjE3MDU4ODkyMjY0Il0sbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9lbC9BR1NLV3hVeEluUGU2WDQ5TkIyb2k4bnhvTDViT3dyTjZ0VzBRRlFVRjlnN2x2MVJ2bnhRVzBKWGdXVE9SNVphb0JURmdxWFhIVGdPNERRcFc5RGUxODUzbHlmcXVBXHUwMDNkXHUwMDNkP3RlXHUwMDNkVE9LRU5fRVhQT1NFRCIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFZrVW40dTFRaHBsbENHbVVuemgxODRvVGtxb1RpRTVZQ3ZZNTNtWm1HTzRxaWw5TzZleDNoMm5kUGt4Q0FMNGpnVGhZS0NfR0VpbkxjTFI2NDlBT0YyNlFcdTAwM2RcdTAwM2Q/YWJcdTAwM2QxXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFg5d1BwSF9DNktOOHBNUE0xek12amdyam5MZXdfZS1mRmxnbElfaUdQMy1tbFNWUVJ3Q3lTYUVfemR4TXc5X29fVGN2SVIwOEppWDdSYzVsUVlad3V0aHdcdTAwM2RcdTAwM2Q/YWJcdTAwM2QyXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFVSM3VLOFRYZnVvR0FKWVptRUJqTjg3OGszNU52aThiVGZFa0dsSWRBYTYwa2Nfb1dvcXZxZ1lTQ3M5ZnltXzhrZi1mZVFScGQ5T3RCRHAxSW42OUV4S3dcdTAwM2RcdTAwM2Q/c2JmXHUwMDNkMiIsImRpdi1ncHQtYWQiLDIwLDEwMCwiY0hWaUxUTTNNVEEyTVRjd05UZzRPVEl5TmpRXHUwMDNkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vd3d3LmdzdGF0aWMuY29tLzBlbW4vZi9wL3B1Yi0zNzEwNjE3MDU4ODkyMjY0LmpzP3VzcXBcdTAwM2RDQkkiXSwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vZWwvQUdTS1d4VkdmejdZMjh4eGpkVlBRQTFJcTRja0hZUVZQUVJrdEw2bTlkY0d0T2k5VEgwRThmUm1GNjVNMk05VnNZbUw5cG5RbXVYMkJZcmxjWWVRRThfR2JmNF9nQVx1MDAzZFx1MDAzZCJd");</script>
+<!-- Site Kit によって追加された「Google AdSense 広告ブロックによる損失収益の回復エラー保護」スニペットを終了 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3710617058892264"
+     crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "日本の妖怪百科事典",
+  "url": "https://youkai.every-topic.com/"
+}
+</script>
+<meta name="p:domain_verify" content="5849263ac9302155dd8d3e14b5d31576"/><link rel="icon" href="https://youkai.every-topic.com/wp-content/uploads/2025/03/cropped-yokai_mascot_character-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://youkai.every-topic.com/wp-content/uploads/2025/03/cropped-yokai_mascot_character-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://youkai.every-topic.com/wp-content/uploads/2025/03/cropped-yokai_mascot_character-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://youkai.every-topic.com/wp-content/uploads/2025/03/cropped-yokai_mascot_character-270x270.jpg" />
+		<style id="wp-custom-css">
+			.p-entry-item__date {
+    display: none;
+}
+h1.p-entry-title.wp-block-heading {
+    background: #000;
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0;
+    font-size: 24px;
+}
+h2 {
+    background: #000;
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    font-size: 18px;
+}
+h3{
+	font-size:16px;
+	background:#eee;
+	padding:0.3rem 0.5rem;
+}
+main ol, main ul {
+    padding-left: 1.5rem;
+}
+.p-design-normal .p-entry-item__content, .p-design-normal-float .p-entry-item__content {
+    padding: 0;
+}
+main ol li, main ul li{
+	margin-bottom:0.5rem;
+}
+form.searchandfilter ul {
+    padding: 0;
+    list-style: none;
+}
+.searchandfilter input[type="submit"] {
+    height: 40px !important;
+    cursor: pointer;
+}		</style>
+			<meta name="google-site-verification" content="日本全国に伝わる妖怪の伝承や歴史を詳しく解説する妖怪百科事典" />
+</head>
+
+<body class="wp-singular youkai-template-default single single-youkai postid-94 single-format-standard custom-background wp-embed-responsive wp-theme-lab23 wp-child-theme-lab23-child p-design-normal l-header-style-type1 p-widget-heading-type-default l-body-layout-2columns">
+		<div class="p-viewport-height-trigger" id="js-viewport-height-trigger"></div>
+	<div class="l-container">
+		<div class="l-container__inner">
+			<header class="l-header l-header--shadow l-header--fixed" id="header">
+				<div class="l-header__inner">
+					<div class="l-site-logo" id="logo">
+			<p class="l-site-logo__img">
+			<a href="https://youkai.every-topic.com">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAB9AQAAAAAZm3QkAAAAAnRSTlMAAHaTzTgAAAAmSURBVGje7cExAQAAAMKg9U/taQmgAAAAAAAAAAAAAAAAAAAAuAE9hgABlryc8QAAAABJRU5ErkJggg==" width="1000" height="125" alt="日本の妖怪百科事典" data-src="https://youkai.every-topic.com/wp-content/uploads/2025/03/logo.png" decoding="async" class="lazyload" data-eio-rwidth="1000" data-eio-rheight="125" /><noscript><img src="https://youkai.every-topic.com/wp-content/uploads/2025/03/logo.png" width="1000" height="125" alt="日本の妖怪百科事典" data-eio="l" /></noscript>
+			</a>
+		</p>
+	</div>					<div class="l-header__menus">
+						<div class="l-global-nav-wrap l-global-nav-wrap--is-bold">
+	<nav class="l-global-nav"><ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%8a%e3%83%93" class="l-global-nav-list"><li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-258"><a href="https://youkai.every-topic.com/">ホーム</a></li>
+<li id="menu-item-200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-200"><a href="/youkai">妖怪一覧</a></li>
+<li id="menu-item-207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-207"><a href="#">妖怪分類</a>
+<ul class="sub-menu">
+	<li id="menu-item-201" class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat current-youkai-ancestor current-menu-parent current-youkai-parent menu-item-201"><a href="https://youkai.every-topic.com/youkai_cat/hito/"><span class="menu-item__name">人型妖怪</span><span class="menu-item__desc">人の姿をしている妖怪</span></a></li>
+	<li id="menu-item-202" class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-202"><a href="https://youkai.every-topic.com/youkai_cat/tukumo/"><span class="menu-item__name">付喪神</span><span class="menu-item__desc">物に魂が宿り妖怪になったもの</span></a></li>
+	<li id="menu-item-203" class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-203"><a href="https://youkai.every-topic.com/youkai_cat/doubutu/"><span class="menu-item__name">動物妖怪</span><span class="menu-item__desc">動物が妖怪化したもの</span></a></li>
+	<li id="menu-item-204" class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-204"><a href="https://youkai.every-topic.com/youkai_cat/yama/"><span class="menu-item__name">山の妖怪</span><span class="menu-item__desc">山岳地帯に住む妖怪</span></a></li>
+	<li id="menu-item-205" class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-205"><a href="https://youkai.every-topic.com/youkai_cat/mizu/"><span class="menu-item__name">水の妖怪</span><span class="menu-item__desc">川・湖・海など水辺に住む妖怪</span></a></li>
+	<li id="menu-item-254" class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-254"><a href="https://youkai.every-topic.com/youkai_cat/fire/"><span class="menu-item__name">火の妖怪</span><span class="menu-item__desc">火を操る妖怪</span></a></li>
+	<li id="menu-item-206" class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-206"><a href="https://youkai.every-topic.com/youkai_cat/rei/"><span class="menu-item__name">霊的妖怪</span><span class="menu-item__desc">霊的妖怪</span></a></li>
+</ul>
+</li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://youkai.every-topic.com/contact/">お問い合わせ</a></li>
+<li id="menu-item-1037" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1037"><a href="https://jp.pinterest.com/yokai_encyclopedia/">Pinterest</a></li>
+</ul></nav></div>						<div class="l-hamburger-menu">
+    <button class="l-hamburger-menu__btn js-hamburger-btn" aria-label="メニューの開閉">
+        <div class="l-hamburger-menu__lines">
+            <span class="l-hamburger-menu__line l-hamburger-menu__line--1"></span>
+            <span class="l-hamburger-menu__line l-hamburger-menu__line--2"></span>
+            <span class="l-hamburger-menu__line l-hamburger-menu__line--3"></span>
+        </div>
+        <!-- <span class="l-hamburger-menu__small-text">menu</span> -->
+    </button>
+</div>
+<div class="l-sp-global-nav-wrap">
+    <nav class="l-sp-global-nav"><ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%8a%e3%83%93-1" class="l-sp-global-nav-list"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-258"><a href="https://youkai.every-topic.com/">ホーム</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-200"><a href="/youkai">妖怪一覧</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-207"><a href="#">妖怪分類</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat current-youkai-ancestor current-menu-parent current-youkai-parent menu-item-201"><a href="https://youkai.every-topic.com/youkai_cat/hito/">人型妖怪</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-202"><a href="https://youkai.every-topic.com/youkai_cat/tukumo/">付喪神</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-203"><a href="https://youkai.every-topic.com/youkai_cat/doubutu/">動物妖怪</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-204"><a href="https://youkai.every-topic.com/youkai_cat/yama/">山の妖怪</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-205"><a href="https://youkai.every-topic.com/youkai_cat/mizu/">水の妖怪</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-254"><a href="https://youkai.every-topic.com/youkai_cat/fire/">火の妖怪</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-youkai_cat menu-item-206"><a href="https://youkai.every-topic.com/youkai_cat/rei/">霊的妖怪</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://youkai.every-topic.com/contact/">お問い合わせ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1037"><a href="https://jp.pinterest.com/yokai_encyclopedia/">Pinterest</a></li>
+</ul></nav></div>
+<div class="l-sp-global-nav-bg js-close-sp-nav"></div>						<div class="p-header-search-btn">
+	<button class="p-header-search-btn__btn js-search-btn" aria-label="検索ボックスを表示">
+					<svg xmlns="http://www.w3.org/2000/svg" width="57.437" height="57.438" viewBox="0 0 57.437 57.438"><path d="M55.826,48.048,45.7,37.919A24.782,24.782,0,1,0,37.919,45.7L48.048,55.827a5.5,5.5,0,0,0,7.778-7.779M11,24.753A13.753,13.753,0,1,1,24.752,38.505,13.768,13.768,0,0,1,11,24.753"/></svg>
+			</button>
+</div>											</div>
+				</div>
+			</header>
+			<div class="p-search-overlay">
+				<div class="p-search-overlay__inner">
+					<form role="search" method="get" class="search-form" action="https://youkai.every-topic.com/">
+				<label>
+					<span class="screen-reader-text">検索:</span>
+					<input type="search" class="search-field" placeholder="検索&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="検索" />
+			</form>					<div class="p-search-overlay__close">
+						<button class="p-search-overlay__close-btn js-close-search-overlay" aria-label="検索ボックスを閉じる"></button>
+					</div>
+				</div>
+				<div class="p-search-overlay__bg js-close-search-overlay"></div>
+			</div>
+			<div class="l-content-wrap l-content-wrap--2columns">
+	<div class="l-content-wrap__inner">
+		<div class="l-content">
+			<main class="l-content-main">
+				<div class="l-content-main__inner l-content-main__inner--entry">
+																		
+							<article class="l-article">
+																	<header class="p-entry-header">
+										<h1 class="p-entry-title wp-block-heading">
+											鬼（おに）										</h1>
+									</header>
+								
+								<div class="l-entry-content p-entry-content p-entry-content--post p-entry-content--h2-style-type1 p-entry-content--h3-style-type0 p-entry-content--h4-style-type8 p-entry-content--h5-style-type0 p-entry-content--h6-style-type0 post-94 youkai type-youkai status-publish format-standard has-post-thumbnail hentry youkai_cat-hito">
+
+									<!-- アイキャッチ画像 -->
+																			<div class="p-entry-thumbnail">
+											<img width="1792" height="1024" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABwAAAAQAAQAAAADOhHAvAAAAAnRSTlMAAHaTzTgAAAD1SURBVHja7cEBDQAAAMKg90/t7AEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADeELQABZuQOqwAAAABJRU5ErkJggg==" class="wp-post-image wp-post-image lazyload" alt="鬼（おに）擬人化イラスト" decoding="async" fetchpriority="high"   data-src="https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp" data-srcset="https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp 1792w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-300x171.webp 300w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-1024x585.webp 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-768x439.webp 768w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-1536x878.webp 1536w" data-sizes="auto" data-eio-rwidth="1792" data-eio-rheight="1024" /><noscript><img width="1792" height="1024" src="https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp" class="wp-post-image wp-post-image" alt="鬼（おに）擬人化イラスト" decoding="async" fetchpriority="high" srcset="https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni.webp 1792w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-300x171.webp 300w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-1024x585.webp 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-768x439.webp 768w, https://youkai.every-topic.com/wp-content/uploads/2025/03/Oni-1536x878.webp 1536w" sizes="(max-width: 1792px) 100vw, 1792px" data-eio="l" /></noscript>										</div>
+									
+									<!-- 分類（アイキャッチ画像の下） -->
+									<div class="p-entry-taxonomies">
+										<div class="p-entry-category"><strong>分類:</strong> <a href="https://youkai.every-topic.com/youkai_cat/hito/">人型妖怪</a> </div>									</div>
+
+									<!-- 本文 -->
+									<div class="p-entry-content">
+																			</div>
+
+									<!-- カスタムフィールドの表示 -->
+									<div class="p-entry-custom-fields">
+										<h2 class='wp-block-heading'>妖怪名</h2><p>鬼（おに）</p><h2 class='wp-block-heading'>主な特徴</h2><p><p>巨大で屈強な体を持ち、その肌の色は赤や青、黒、緑など多様に変化する。</p>
+<p>額には鋭い角が生えており、その数は一本または二本のことが多い。</p>
+<p>衣装として虎の皮のふんどしをまとい、手には鉄製の金棒や大刀を携えていることが一般的である。その姿はまさに暴力と恐怖の象徴であり、力の化身として日本の伝承に登場する。</p>
+<p>鬼の顔は恐ろしい形相をしていることが多いが、一部の伝承では美しく整った顔立ちを持つ鬼もいると言われている。</p>
+</p><h2 class='wp-block-heading'>出現場所</h2><p>山, 神社, 村・町, 家屋</p><h2 class='wp-block-heading'>関連都道府県</h2><p>全国</p><h2 class='wp-block-heading'>能力・行動</h2><p><ul>
+<li><strong>怪力</strong><br />
+常人離れした怪力を誇り、一撃で家屋を破壊し、人を粉砕するほどの力を持つ。</li>
+<li><strong>不死性<br />
+</strong>並の武器では傷つけることが難しく、不死身に近い耐久力を持つとも言われている。</li>
+<li><strong>呪術<br />
+</strong>妖術を操る鬼もおり、幻覚を見せたり、人を惑わせたりすることができるとされる。</li>
+<li><strong>魂の捕食<br />
+</strong>一部の鬼は人間の魂を喰らい、それによってさらに力を増すという伝承も存在する。</li>
+</ul>
+</p><h2 class='wp-block-heading'>危険度ランク</h2><p><strong>S（最強）</strong></p><h3 class='wp-block-heading'>物理的危害</h3><p><strong>高（致命的）</strong></p><p>鬼は恐るべき力を持ち、巨大な金棒で人を殴打し、一瞬で命を奪うことができる。その爪や牙も鋭く、人間の身体を簡単に引き裂く。また、一部の鬼は火を吹いたり、雷を操る能力を持つとも伝えられている。</p><h3 class='wp-block-heading'>精神的影響</h3><p><strong>中（恐怖・呪い）</strong></p><p>その威圧的な姿や咆哮は人々に強烈な恐怖を与え、時には正気を失わせるほどの影響を及ぼす。特に呪術を使う鬼の場合、相手を呪い、病にしたり、長期間にわたって精神を蝕んだりすることもある。</p><h2 class='wp-block-heading'>遭遇確率</h2><p>★★★☆☆</p><p>鬼は日本各地の伝承や昔話に頻繁に登場し、人々の恐怖の対象となってきた。特に、神社や寺には「鬼門除け」として鬼を封じるためのまじないが施されていることが多い。また、節分の豆まきの風習も、鬼を祓うための儀式の一つとされている。</p><h2 class='wp-block-heading'>伝承・歴史</h2><p><p>鬼は古くから日本の民話や歴史書に登場し、恐怖の象徴として語り継がれてきた。</p>
+<p>平安時代の伝承には、京の都を荒らした鬼の首領「酒呑童子」が登場し、源頼光とその家臣たちによって討伐されたとされる。</p>
+<p>また、その配下には「茨木童子」という知能の高い鬼がいたとも言われている。</p>
+<p>さらに、風水では北東の方角を「鬼門」と呼び、鬼が出入りする方角として忌み嫌われてきた。</p>
+<p>このように、鬼は日本の文化に深く根付いており、その存在は単なる妖怪という枠を超え、時に神や怨霊と同一視されることもある。</p>
+</p><h2 class='wp-block-heading'>現代文化での登場</h2><p><ul>
+<li data-start="900" data-end="942"><strong data-start="902" data-end="912">アニメ・漫画<br />
+</strong>『鬼滅の刃』『うしおととら』『ぬらりひょんの孫』など</li>
+<li data-start="943" data-end="980"><strong data-start="945" data-end="952">ゲーム<br />
+</strong>『大神』『妖怪ウォッチ』『Fateシリーズ』など</li>
+</ul>
+</p><h2 class='wp-block-heading'>遭遇したらどうすればいい？</h2><p><ol>
+<li data-start="1011" data-end="1046"><strong data-start="1014" data-end="1023">豆を投げる<br />
+</strong>節分の豆まきは、鬼を祓う呪術として有効</li>
+<li data-start="1047" data-end="1082"><strong data-start="1050" data-end="1058">桃を持つ<br />
+</strong>桃は魔除けの力を持ち、鬼が苦手とする果実</li>
+<li data-start="1083" data-end="1123"><strong data-start="1086" data-end="1098">神仏の力を借りる<br />
+</strong>鬼退治には強力な霊力を持つ武士や僧侶が活躍</li>
+</ol>
+</p>									</div>
+
+								</div>
+
+								<footer class="p-entry-footer">
+	<div class="p-entry-footer__inner">
+							<div class="c-share-buttons c-share-buttons--circle">
+            <a href="http://www.facebook.com/share.php?u=https://youkai.every-topic.com/youkai/oni/&t=%E9%AC%BC%EF%BC%88%E3%81%8A%E3%81%AB%EF%BC%89" class="c-share-buttons__item c-share-buttons__item--fb">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+            </svg>
+        </a>
+                <a href="http://twitter.com/share?url=https://youkai.every-topic.com/youkai/oni/&text=%E9%AC%BC%EF%BC%88%E3%81%8A%E3%81%AB%EF%BC%89" class="c-share-buttons__item c-share-buttons__item--tw">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+            </svg>
+        </a>
+                <a href="//getpocket.com/edit?url=https://youkai.every-topic.com/youkai/oni/&title=%E9%AC%BC%EF%BC%88%E3%81%8A%E3%81%AB%EF%BC%89" class="c-share-buttons__item c-share-buttons__item--pocket">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M407.6 64h-367C18.5 64 0 82.5 0 104.6v135.2C0 364.5 99.7 464 224.2 464c124 0 223.8-99.5 223.8-224.2V104.6c0-22.4-17.7-40.6-40.4-40.6zm-162 268.5c-12.4 11.8-31.4 11.1-42.4 0C89.5 223.6 88.3 227.4 88.3 209.3c0-16.9 13.8-30.7 30.7-30.7 17 0 16.1 3.8 105.2 89.3 90.6-86.9 88.6-89.3 105.5-89.3 16.9 0 30.7 13.8 30.7 30.7 0 17.8-2.9 15.7-114.8 123.2z" />
+            </svg>
+        </a>
+                <a href="https://timeline.line.me/social-plugin/share?url=https://youkai.every-topic.com/youkai/oni/" class="c-share-buttons__item c-share-buttons__item--line">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M311 196.8v81.3c0 2.1-1.6 3.7-3.7 3.7h-13c-1.3 0-2.4-.7-3-1.5l-37.3-50.3v48.2c0 2.1-1.6 3.7-3.7 3.7h-13c-2.1 0-3.7-1.6-3.7-3.7V196.9c0-2.1 1.6-3.7 3.7-3.7h12.9c1.1 0 2.4 .6 3 1.6l37.3 50.3V196.9c0-2.1 1.6-3.7 3.7-3.7h13c2.1-.1 3.8 1.6 3.8 3.5zm-93.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 2.1 1.6 3.7 3.7 3.7h13c2.1 0 3.7-1.6 3.7-3.7V196.8c0-1.9-1.6-3.7-3.7-3.7zm-31.4 68.1H150.3V196.8c0-2.1-1.6-3.7-3.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 1 .3 1.8 1 2.5c.7 .6 1.5 1 2.5 1h52.2c2.1 0 3.7-1.6 3.7-3.7v-13c0-1.9-1.6-3.7-3.5-3.7zm193.7-68.1H327.3c-1.9 0-3.7 1.6-3.7 3.7v81.3c0 1.9 1.6 3.7 3.7 3.7h52.2c2.1 0 3.7-1.6 3.7-3.7V265c0-2.1-1.6-3.7-3.7-3.7H344V247.7h35.5c2.1 0 3.7-1.6 3.7-3.7V230.9c0-2.1-1.6-3.7-3.7-3.7H344V213.5h35.5c2.1 0 3.7-1.6 3.7-3.7v-13c-.1-1.9-1.7-3.7-3.7-3.7zM512 93.4V419.4c-.1 51.2-42.1 92.7-93.4 92.6H92.6C41.4 511.9-.1 469.8 0 418.6V92.6C.1 41.4 42.2-.1 93.4 0H419.4c51.2 .1 92.7 42.1 92.6 93.4zM441.6 233.5c0-83.4-83.7-151.3-186.4-151.3s-186.4 67.9-186.4 151.3c0 74.7 66.3 137.4 155.9 149.3c21.8 4.7 19.3 12.7 14.4 42.1c-.8 4.7-3.8 18.4 16.1 10.1s107.3-63.2 146.5-108.2c27-29.7 39.9-59.8 39.9-93.1z" />
+            </svg>
+        </a>
+                <a href="//jp.pinterest.com/pin/create/button/?url=https://youkai.every-topic.com/youkai/oni/" class="c-share-buttons__item c-share-buttons__item--pinterest">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
+            </svg>
+        </a>
+                <a href="https://b.hatena.ne.jp/entry/https://youkai.every-topic.com/youkai/oni/" class="c-share-buttons__item c-share-buttons__item--hatebu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 17 14">
+                <g transform="translate(-37 -25)">
+                    <path d="M13.834-4.828a3.926,3.926,0,0,1-.409,1.815A3.739,3.739,0,0,1,12.3-1.688,5.251,5.251,0,0,1,10.482-.8a10.024,10.024,0,0,1-2.515.263H1.855v-14H7.29a19.333,19.333,0,0,1,2.478.113,5.087,5.087,0,0,1,1.556.5,2.755,2.755,0,0,1,1.189,1.086,3.076,3.076,0,0,1,.39,1.556A3.074,3.074,0,0,1,12.367-9.5a3.513,3.513,0,0,1-1.514,1.208v.075A3.945,3.945,0,0,1,13.03-7.085,3.162,3.162,0,0,1,13.834-4.828ZM9.208-10.583a1.544,1.544,0,0,0-.174-.7,1.082,1.082,0,0,0-.616-.517,2.984,2.984,0,0,0-.983-.165q-.588-.014-1.65-.014H5.447v2.962h.564q.856,0,1.457-.028a2.614,2.614,0,0,0,.95-.188,1.162,1.162,0,0,0,.639-.559A1.963,1.963,0,0,0,9.208-10.583Zm.884,5.7a1.753,1.753,0,0,0-.259-1.03,1.568,1.568,0,0,0-.879-.541,4.592,4.592,0,0,0-1.166-.132Q7.046-6.6,6.237-6.6h-.79v3.488H5.71q1.523,0,2.181-.009A3.2,3.2,0,0,0,9.1-3.362a1.483,1.483,0,0,0,.776-.625A1.854,1.854,0,0,0,10.092-4.885Z" transform="translate(35.145 39.541)" />
+                    <rect width="3" height="10" transform="translate(51 25)" />
+                    <circle cx="1.5" cy="1.5" r="1.5" transform="translate(51 36)" />
+                </g>
+            </svg>
+        </a>
+    </div>								<div class="p-comment-area">
+					</div>
+	</div>
+</footer>
+																		<section class="p-related-entries">
+											<h2 class="wp-block-heading">同じ分類の妖怪</h2>
+											<div class="p-entries">
+																									<div class="p-entry-item">
+														<a href="https://youkai.every-topic.com/youkai/tamamo-no-mae/" class="p-entry-item__inner">
+															<div class="p-entry-item__thumb">
+																																	<img width="1408" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABYAAAAMAAQAAAAC1Sv5hAAAAAnRSTlMAAHaTzTgAAACaSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GxMeAAGOlxCGAAAAAElFTkSuQmCC" class="attachment-full size-full wp-post-image wp-post-image lazyload" alt="玉藻前（たまものまえ）" decoding="async"   data-src="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc.jpg" data-srcset="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc.jpg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc-300x164.jpg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc-1024x559.jpg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc-768x419.jpg 768w" data-sizes="auto" data-eio-rwidth="1408" data-eio-rheight="768" /><noscript><img width="1408" height="768" src="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc.jpg" class="attachment-full size-full wp-post-image wp-post-image" alt="玉藻前（たまものまえ）" decoding="async" srcset="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc.jpg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc-300x164.jpg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc-1024x559.jpg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_3f26def6cc-768x419.jpg 768w" sizes="(max-width: 1408px) 100vw, 1408px" data-eio="l" /></noscript>																															</div>
+															<div class="p-entry-item__content">
+																<h2 class="p-entry-item__ttl">玉藻前（たまものまえ）</h2>
+															</div>
+														</a>
+													</div>
+																									<div class="p-entry-item">
+														<a href="https://youkai.every-topic.com/youkai/atooi-kozou/" class="p-entry-item__inner">
+															<div class="p-entry-item__thumb">
+																																	<img width="1408" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABYAAAAMAAQAAAAC1Sv5hAAAAAnRSTlMAAHaTzTgAAACaSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GxMeAAGOlxCGAAAAAElFTkSuQmCC" class="attachment-full size-full wp-post-image wp-post-image lazyload" alt="後追い小僧（あとおいこぞう）" decoding="async"   data-src="https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr.jpeg" data-srcset="https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr.jpeg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr-300x164.jpeg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr-1024x559.jpeg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr-768x419.jpeg 768w" data-sizes="auto" data-eio-rwidth="1408" data-eio-rheight="768" /><noscript><img width="1408" height="768" src="https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr.jpeg" class="attachment-full size-full wp-post-image wp-post-image" alt="後追い小僧（あとおいこぞう）" decoding="async" srcset="https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr.jpeg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr-300x164.jpeg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr-1024x559.jpeg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/10/Whisk_cb10776782cfbe1aba04f92e7cd2de4edr-768x419.jpeg 768w" sizes="(max-width: 1408px) 100vw, 1408px" data-eio="l" /></noscript>																															</div>
+															<div class="p-entry-item__content">
+																<h2 class="p-entry-item__ttl">後追い小僧（あとおいこぞう）</h2>
+															</div>
+														</a>
+													</div>
+																									<div class="p-entry-item">
+														<a href="https://youkai.every-topic.com/youkai/ame-no-mahitotsu-no-kami/" class="p-entry-item__inner">
+															<div class="p-entry-item__thumb">
+																																	<img width="1365" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVUAAAMAAQAAAAAMcrpsAAAAAnRSTlMAAHaTzTgAAACWSURBVHja7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GBB4AAQ3eOGQAAAAASUVORK5CYII=" class="attachment-full size-full wp-post-image wp-post-image lazyload" alt="天目一箇神（あめのまひとつのかみ）" decoding="async"   data-src="https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17.jpg" data-srcset="https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17.jpg 1365w, https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17-300x169.jpg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17-1024x576.jpg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17-768x432.jpg 768w" data-sizes="auto" data-eio-rwidth="1365" data-eio-rheight="768" /><noscript><img width="1365" height="768" src="https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17.jpg" class="attachment-full size-full wp-post-image wp-post-image" alt="天目一箇神（あめのまひとつのかみ）" decoding="async" srcset="https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17.jpg 1365w, https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17-300x169.jpg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17-1024x576.jpg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/12/Image_fx-17-768x432.jpg 768w" sizes="(max-width: 1365px) 100vw, 1365px" data-eio="l" /></noscript>																															</div>
+															<div class="p-entry-item__content">
+																<h2 class="p-entry-item__ttl">天目一箇神（あめのまひとつのかみ）</h2>
+															</div>
+														</a>
+													</div>
+																									<div class="p-entry-item">
+														<a href="https://youkai.every-topic.com/youkai/nanahiro-nyobo/" class="p-entry-item__inner">
+															<div class="p-entry-item__thumb">
+																																	<img width="1408" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABYAAAAMAAQAAAAC1Sv5hAAAAAnRSTlMAAHaTzTgAAACaSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GxMeAAGOlxCGAAAAAElFTkSuQmCC" class="attachment-full size-full wp-post-image wp-post-image lazyload" alt="七尋女房（ななひろにょうぼう）" decoding="async"   data-src="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr.jpeg" data-srcset="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr.jpeg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr-300x164.jpeg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr-1024x559.jpeg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr-768x419.jpeg 768w" data-sizes="auto" data-eio-rwidth="1408" data-eio-rheight="768" /><noscript><img width="1408" height="768" src="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr.jpeg" class="attachment-full size-full wp-post-image wp-post-image" alt="七尋女房（ななひろにょうぼう）" decoding="async" srcset="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr.jpeg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr-300x164.jpeg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr-1024x559.jpeg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_4515ab23fe4438eb8384ff4688ed5482dr-768x419.jpeg 768w" sizes="(max-width: 1408px) 100vw, 1408px" data-eio="l" /></noscript>																															</div>
+															<div class="p-entry-item__content">
+																<h2 class="p-entry-item__ttl">七尋女房（ななひろにょうぼう）</h2>
+															</div>
+														</a>
+													</div>
+																									<div class="p-entry-item">
+														<a href="https://youkai.every-topic.com/youkai/kyorinrin/" class="p-entry-item__inner">
+															<div class="p-entry-item__thumb">
+																																	<img width="1408" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABYAAAAMAAQAAAAC1Sv5hAAAAAnRSTlMAAHaTzTgAAACaSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GxMeAAGOlxCGAAAAAElFTkSuQmCC" class="attachment-full size-full wp-post-image wp-post-image lazyload" alt="経凛々（きょうりんりん）" decoding="async"   data-src="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084.jpg" data-srcset="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084.jpg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084-300x164.jpg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084-1024x559.jpg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084-768x419.jpg 768w" data-sizes="auto" data-eio-rwidth="1408" data-eio-rheight="768" /><noscript><img width="1408" height="768" src="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084.jpg" class="attachment-full size-full wp-post-image wp-post-image" alt="経凛々（きょうりんりん）" decoding="async" srcset="https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084.jpg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084-300x164.jpg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084-1024x559.jpg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/08/Whisk_52a0c30084-768x419.jpg 768w" sizes="(max-width: 1408px) 100vw, 1408px" data-eio="l" /></noscript>																															</div>
+															<div class="p-entry-item__content">
+																<h2 class="p-entry-item__ttl">経凛々（きょうりんりん）</h2>
+															</div>
+														</a>
+													</div>
+																									<div class="p-entry-item">
+														<a href="https://youkai.every-topic.com/youkai/shirachigo/" class="p-entry-item__inner">
+															<div class="p-entry-item__thumb">
+																																	<img width="1408" height="768" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABYAAAAMAAQAAAAC1Sv5hAAAAAnRSTlMAAHaTzTgAAACaSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8GxMeAAGOlxCGAAAAAElFTkSuQmCC" class="attachment-full size-full wp-post-image wp-post-image lazyload" alt="白児（しらちご）" decoding="async"   data-src="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr.jpeg" data-srcset="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr.jpeg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr-300x164.jpeg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr-1024x559.jpeg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr-768x419.jpeg 768w" data-sizes="auto" data-eio-rwidth="1408" data-eio-rheight="768" /><noscript><img width="1408" height="768" src="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr.jpeg" class="attachment-full size-full wp-post-image wp-post-image" alt="白児（しらちご）" decoding="async" srcset="https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr.jpeg 1408w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr-300x164.jpeg 300w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr-1024x559.jpeg 1024w, https://youkai.every-topic.com/wp-content/uploads/2025/09/Whisk_906c876f1b96615a55040614e16d78f4dr-768x419.jpeg 768w" sizes="(max-width: 1408px) 100vw, 1408px" data-eio="l" /></noscript>																															</div>
+															<div class="p-entry-item__content">
+																<h2 class="p-entry-item__ttl">白児（しらちご）</h2>
+															</div>
+														</a>
+													</div>
+																							</div>
+										</section>
+										
+							</article>
+															</div>
+			</main>
+
+							<aside class="l-sidebar l-sidebar--design-background-color">
+	<div class="l-sidebar__inner">
+					<div id="block-2" class="p-widget p-widget--sidebar widget_block widget_search"><form role="search" method="get" action="https://youkai.every-topic.com/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >検索</label><div class="wp-block-search__inside-wrapper" ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="検索" class="wp-block-search__button wp-element-button" type="submit" >検索</button></div></form></div><div id="block-19" class="p-widget p-widget--sidebar widget_block">
+<h2 class="wp-block-heading">人気記事</h2>
+</div><div id="block-18" class="p-widget p-widget--sidebar widget_block"><div class="popular-posts"><script type="application/json">{"title":"","limit":"5","offset":0,"range":"last30days","time_quantity":"24","time_unit":"hour","freshness":false,"order_by":"views","post_type":"post,youkai","pid":"","exclude":"","taxonomy":"category","term_id":"","author":"","shorten_title":{"active":false,"length":"25","words":false},"post-excerpt":{"active":false,"length":0,"keep_format":false,"words":false},"thumbnail":{"active":true,"width":"75","height":"75","build":"manual","size":""},"rating":false,"stats_tag":{"comment_count":false,"views":false,"author":false,"date":{"active":false,"format":"F j, Y"},"taxonomy":{"active":true,"name":"category"}},"markup":{"custom_html":true,"wpp-start":"<ul class=\"wpp-list wpp-cards\">","wpp-end":"<\/ul>","title-start":"<h2>","title-end":"<\/h2>","post-html":"<li class=\"{current_class}\">{thumb_img} <div class=\"wpp-item-data\"><div class=\"taxonomies\">{taxonomy}<\/div>{title} <p class=\"wpp-excerpt\">{excerpt}<\/p><\/div><\/li>"},"theme":{"name":"cards"}}</script><div class="wpp-widget-block-placeholder"></div></div></div><div id="block-9" class="p-widget p-widget--sidebar widget_block">
+<h2 class="wp-block-heading">分類</h2>
+</div><div id="block-8" class="p-widget p-widget--sidebar widget_block"><p><ul class="wp-block-categories-list wp-block-categories"><li class="cat-item cat-item-9"><a href="https://youkai.every-topic.com/youkai_cat/hito/">人型妖怪</a> (50)</li><li class="cat-item cat-item-10"><a href="https://youkai.every-topic.com/youkai_cat/tukumo/">付喪神</a> (11)</li><li class="cat-item cat-item-11"><a href="https://youkai.every-topic.com/youkai_cat/doubutu/">動物妖怪</a> (24)</li><li class="cat-item cat-item-12"><a href="https://youkai.every-topic.com/youkai_cat/yama/">山の妖怪</a> (10)</li><li class="cat-item cat-item-13"><a href="https://youkai.every-topic.com/youkai_cat/mizu/">水の妖怪</a> (15)</li><li class="cat-item cat-item-17"><a href="https://youkai.every-topic.com/youkai_cat/fire/">火の妖怪</a> (7)</li><li class="cat-item cat-item-14"><a href="https://youkai.every-topic.com/youkai_cat/rei/">霊的妖怪</a> (59)</li></ul></p>
+</div><div id="block-16" class="p-widget p-widget--sidebar widget_block">
+<h2 class="wp-block-heading">危険度ランク</h2>
+</div><div id="block-15" class="p-widget p-widget--sidebar widget_block"><p><ul class="wp-block-categories-list wp-block-categories"><li class="cat-item"><a href="https://youkai.every-topic.com/youkai/?kiken=S%EF%BC%88%E6%9C%80%E5%BC%B7%EF%BC%89">S（最強）</a> (7)</li><li class="cat-item"><a href="https://youkai.every-topic.com/youkai/?kiken=A%EF%BC%88%E9%9D%9E%E5%B8%B8%E3%81%AB%E5%8D%B1%E9%99%BA%EF%BC%89">A（非常に危険）</a> (47)</li><li class="cat-item"><a href="https://youkai.every-topic.com/youkai/?kiken=B%EF%BC%88%E8%AD%A6%E6%88%92%E3%81%99%E3%81%B9%E3%81%8D%EF%BC%89">B（警戒すべき）</a> (54)</li><li class="cat-item"><a href="https://youkai.every-topic.com/youkai/?kiken=C%EF%BC%88%E3%81%BB%E3%81%BC%E7%84%A1%E5%AE%B3%EF%BC%89">C（ほぼ無害）</a> (25)</li></ul></p>
+</div><div id="block-13" class="p-widget p-widget--sidebar widget_block">
+<h2 class="wp-block-heading">最近の投稿</h2>
+</div><div id="block-11" class="p-widget p-widget--sidebar widget_block">    <div class="wp-block-lab23-blocks-latest-post is-style-default">
+                    <div class="l23b-latest-post ">
+                                                        <a href="https://youkai.every-topic.com/1201/" class="l23b-latest-post__item">
+                        <article class="l23b-latest-post-card">
+							<figure class="l23b-latest-post-card__thumb">
+								                                    <img decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACrAQAAAAD0xJwMAAAAAnRSTlMAAHaTzTgAAAAdSURBVFjD7cEBDQAAAMKg909tDwcUAAAAAAAAtwYaDQABrcpNTwAAAABJRU5ErkJggg==" width="300" height="171" alt="青行燈の正体｜百物語の最後に現れる怪異を読み解く" loading="lazy" data-src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_5586034e2a63b93a7c1483bd494cfe17eg-300x171.jpg" class="lazyload" data-eio-rwidth="300" data-eio-rheight="171" /><noscript><img decoding="async" src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_5586034e2a63b93a7c1483bd494cfe17eg-300x171.jpg" width="300" height="171" alt="青行燈の正体｜百物語の最後に現れる怪異を読み解く" loading="lazy" data-eio="l" /></noscript>
+															</figure>
+                            <div class="l23b-latest-post-card__content">
+                                <h2 class="l23b-latest-post-card__title">
+                                    青行燈の正体｜百物語の最後に現れる怪異を読み解く                                </h2>
+                                <p class="l23b-latest-post-card__date">
+                                    <time datetime="2025-11-20">2025.11.20</time>
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                                                        <a href="https://youkai.every-topic.com/1186/" class="l23b-latest-post__item">
+                        <article class="l23b-latest-post-card">
+							<figure class="l23b-latest-post-card__thumb">
+								                                    <img decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACrAQAAAAD0xJwMAAAAAnRSTlMAAHaTzTgAAAAdSURBVFjD7cEBDQAAAMKg909tDwcUAAAAAAAAtwYaDQABrcpNTwAAAABJRU5ErkJggg==" width="300" height="171" alt="日本列島を形づくった巨人─ダイダラボッチの壮大すぎる伝承" loading="lazy" data-src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_6e290e2059323b79c28485136fad741aeg-300x171.jpg" class="lazyload" data-eio-rwidth="300" data-eio-rheight="171" /><noscript><img decoding="async" src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_6e290e2059323b79c28485136fad741aeg-300x171.jpg" width="300" height="171" alt="日本列島を形づくった巨人─ダイダラボッチの壮大すぎる伝承" loading="lazy" data-eio="l" /></noscript>
+															</figure>
+                            <div class="l23b-latest-post-card__content">
+                                <h2 class="l23b-latest-post-card__title">
+                                    日本列島を形づくった巨人─ダイダラボッチの壮大すぎる伝承                                </h2>
+                                <p class="l23b-latest-post-card__date">
+                                    <time datetime="2025-11-18">2025.11.18</time>
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                                                        <a href="https://youkai.every-topic.com/1178/" class="l23b-latest-post__item">
+                        <article class="l23b-latest-post-card">
+							<figure class="l23b-latest-post-card__thumb">
+								                                    <img decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACkAQAAAAAFki7ZAAAAAnRSTlMAAHaTzTgAAAAdSURBVFjD7cEBDQAAAMKg909tDwcUAAAAAADAjwEY/AABJdFaeAAAAABJRU5ErkJggg==" width="300" height="164" alt="なぜ“妖怪の総大将”と呼ばれるのか？ぬらりひょんの歴史と変遷を徹底解説" loading="lazy" data-src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_285563b4cef79919aba47b95925358e1dr-300x164.jpeg" class="lazyload" data-eio-rwidth="300" data-eio-rheight="164" /><noscript><img decoding="async" src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_285563b4cef79919aba47b95925358e1dr-300x164.jpeg" width="300" height="164" alt="なぜ“妖怪の総大将”と呼ばれるのか？ぬらりひょんの歴史と変遷を徹底解説" loading="lazy" data-eio="l" /></noscript>
+															</figure>
+                            <div class="l23b-latest-post-card__content">
+                                <h2 class="l23b-latest-post-card__title">
+                                    なぜ“妖怪の総大将”と呼ばれるのか？ぬらりひょんの歴史と変遷を徹底解説                                </h2>
+                                <p class="l23b-latest-post-card__date">
+                                    <time datetime="2025-11-18">2025.11.18</time>
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                                                        <a href="https://youkai.every-topic.com/1173/" class="l23b-latest-post__item">
+                        <article class="l23b-latest-post-card">
+							<figure class="l23b-latest-post-card__thumb">
+								                                    <img decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACkAQAAAAAFki7ZAAAAAnRSTlMAAHaTzTgAAAAdSURBVFjD7cEBDQAAAMKg909tDwcUAAAAAADAjwEY/AABJdFaeAAAAABJRU5ErkJggg==" width="300" height="164" alt="飛縁魔の夜渡り｜ 深川に残された女の怨念と愛の物語" loading="lazy" data-src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_bd2598070cb3f349dd44a8153e04401ddr-300x164.jpeg" class="lazyload" data-eio-rwidth="300" data-eio-rheight="164" /><noscript><img decoding="async" src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_bd2598070cb3f349dd44a8153e04401ddr-300x164.jpeg" width="300" height="164" alt="飛縁魔の夜渡り｜ 深川に残された女の怨念と愛の物語" loading="lazy" data-eio="l" /></noscript>
+															</figure>
+                            <div class="l23b-latest-post-card__content">
+                                <h2 class="l23b-latest-post-card__title">
+                                    飛縁魔の夜渡り｜ 深川に残された女の怨念と愛の物語                                </h2>
+                                <p class="l23b-latest-post-card__date">
+                                    <time datetime="2025-11-16">2025.11.16</time>
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                                                        <a href="https://youkai.every-topic.com/1161/" class="l23b-latest-post__item">
+                        <article class="l23b-latest-post-card">
+							<figure class="l23b-latest-post-card__thumb">
+								                                    <img decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACrAQAAAAD0xJwMAAAAAnRSTlMAAHaTzTgAAAAdSURBVFjD7cEBDQAAAMKg909tDwcUAAAAAAAAtwYaDQABrcpNTwAAAABJRU5ErkJggg==" width="300" height="171" alt="【相馬の古内裏】瀧夜叉姫とがしゃどくろにまつわる平安の怪異伝説" loading="lazy" data-src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_38b36378b8b016fa52e435da36cefb7eeg-300x171.jpg" class="lazyload" data-eio-rwidth="300" data-eio-rheight="171" /><noscript><img decoding="async" src="https://youkai.every-topic.com/wp-content/uploads/2025/11/Whisk_38b36378b8b016fa52e435da36cefb7eeg-300x171.jpg" width="300" height="171" alt="【相馬の古内裏】瀧夜叉姫とがしゃどくろにまつわる平安の怪異伝説" loading="lazy" data-eio="l" /></noscript>
+															</figure>
+                            <div class="l23b-latest-post-card__content">
+                                <h2 class="l23b-latest-post-card__title">
+                                    【相馬の古内裏】瀧夜叉姫とがしゃどくろにまつわる平安の怪異伝説                                </h2>
+                                <p class="l23b-latest-post-card__date">
+                                    <time datetime="2025-11-16">2025.11.16</time>
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                            </div>
+            </div>
+</div>			</div>
+</aside>					</div>
+	</div>
+</div>
+
+	
+			<footer class="l-footer">
+				<div class="l-footer__inner">
+																<div class="p-footer-nav-wrap">
+							<nav class="p-footer-nav"><ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%8a%e3%83%93" class="p-footer-nav-list"><li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-35"><a href="https://youkai.every-topic.com/">ホーム</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://youkai.every-topic.com/contact/">お問い合わせ</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-36"><a rel="privacy-policy" href="https://youkai.every-topic.com/privacy-policy/">プライバシーポリシー</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://youkai.every-topic.com/sitepolicy/">サイトポリシー</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://youkai.every-topic.com/sitemap/">サイトマップ</a></li>
+</ul></nav>						</div>
+										<div class="footer__bottom">
+						
+<div class="copyright">
+    <p class="copyright__text" id="c-copyright">©  日本の妖怪百科事典 All rights reserved.</p>
+</div>					</div>
+				</div>
+				<div class="c-page-top c-page-top--circle">
+					<a href="#" class="c-page-top__btn" aria-label="Page Top"></a>
+				</div>
+			</footer>
+		</div><!-- /.container__inner -->
+	</div><!-- /.container -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/lab23-child/*","/wp-content/themes/lab23/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="eio-lazy-load-js-before">
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0,"use_dpr":1};
+//# sourceURL=eio-lazy-load-js-before
+</script>
+<script src="https://youkai.every-topic.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=812" id="eio-lazy-load-js" async data-wp-strategy="async"></script>
+<script src="https://youkai.every-topic.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script src="https://youkai.every-topic.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script src="https://youkai.every-topic.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.4" id="swv-js"></script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-02-18 07:36:32+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"ja_JP"},"This contact form is placed in the wrong place.":["\u3053\u306e\u30b3\u30f3\u30bf\u30af\u30c8\u30d5\u30a9\u30fc\u30e0\u306f\u9593\u9055\u3063\u305f\u4f4d\u7f6e\u306b\u7f6e\u304b\u308c\u3066\u3044\u307e\u3059\u3002"],"Error:":["\u30a8\u30e9\u30fc:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+</script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/youkai.every-topic.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script src="https://youkai.every-topic.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.4" id="contact-form-7-js"></script>
+<script src="https://youkai.every-topic.com/wp-content/themes/lab23/assets/js/script.js?ver=1.1.4" id="lab23-theme-script-js"></script>
+<script src="https://youkai.every-topic.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-40476021fb6e59177033.js" id="googlesitekit-events-provider-contact-form-7-js" defer></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://youkai.every-topic.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://youkai.every-topic.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
